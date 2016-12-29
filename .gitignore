@@ -71,3 +71,8 @@ jspm_packages
 .sass-cache/
 *.css.map
 typings
+bower_components
+
+public/javascripts/**
+public/stylesheets/**
+!public/stylesheets/style.scss

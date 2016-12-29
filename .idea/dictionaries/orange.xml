@@ -4,6 +4,10 @@
       <w>addr</w>
       <w>dest</w>
       <w>dirname</w>
+      <w>javascripts</w>
+      <w>kogle</w>
+      <w>scss</w>
+      <w>wickedev</w>
     </words>
   </dictionary>
 </component>

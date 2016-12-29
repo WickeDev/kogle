@@ -1,0 +1,28 @@
+{
+    "name": "kogle",
+    "description": "kogle",
+    "main": "",
+    "authors": [
+        "wickedev <orange881217@gmail.com>"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/WickeDev/kogle",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "install": {
+        "path": {
+            "css": "public/stylesheets",
+            "scss": "public/stylesheets",
+            "sass": "public/stylesheets",
+            "js": "public/javascripts"
+        }
+    },
+    "dependencies": {
+        "bootstrap": "v4.0.0-alpha.5"
+    }
+}
