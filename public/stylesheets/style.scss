@@ -1,8 +1,11 @@
-@import 'scss/bootstrap.scss';
+@import '../../bower_components/bootstrap/scss/bootstrap';
 
 body {
-    padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.body {
+    padding: 50px;
 }
 
 a {
