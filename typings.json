@@ -1,6 +1,6 @@
 {
     "globalDependencies": {
-        "node": "registry:dt/node#6.0.0+20161227094133"
+        "node": "registry:env/node#6.0.0+20161225010013"
     },
     "dependencies": {
         "express": "registry:dt/express#4.0.0+20161115070701"
