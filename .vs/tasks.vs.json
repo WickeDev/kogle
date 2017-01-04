@@ -1,0 +1,15 @@
+﻿{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-www",
+      "appliesTo": "bin/www",
+      "type": "command"
+    },
+    {
+      "taskName": "task-layout",
+      "appliesTo": "views/layout.hbs",
+      "type": "command"
+    }
+  ]
+}
