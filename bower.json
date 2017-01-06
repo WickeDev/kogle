@@ -16,10 +16,8 @@
     ],
     "install": {
         "path": {
-            "css": "public/stylesheets",
-            "scss": "public/stylesheets",
-            "sass": "public/stylesheets",
-            "js": "public/javascripts"
+            "/[c|sc|le]ss$/": "app/public/stylesheets/libs",
+            "js": "app/public/javascripts/libs"
         }
     },
     "dependencies": {

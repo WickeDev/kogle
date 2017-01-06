@@ -73,6 +73,6 @@ jspm_packages
 typings
 bower_components
 
-public/javascripts/**
-public/stylesheets/**
-!public/stylesheets/style.scss
+app/public/javascripts/libs
+app/public/stylesheets/libs
+app/public/stylesheets/*.css
