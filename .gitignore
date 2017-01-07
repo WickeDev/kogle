@@ -76,3 +76,7 @@ bower_components
 app/public/javascripts/libs
 app/public/stylesheets/libs
 app/public/stylesheets/*.css
+
+## idea
+
+.idea/workspace.xml
