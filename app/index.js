@@ -5,7 +5,7 @@ import logger from 'morgan';
 import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 
-import result from './routes/result';
+//import result from './routes/result';
 import index from './routes/index';
 import users from './routes/users';
 
@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/result', result);
+//app.use('/result', result);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
