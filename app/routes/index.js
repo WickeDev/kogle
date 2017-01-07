@@ -1,10 +1,9 @@
-const express = require('express');
-const router = express.Router();
+import {Router} from 'express';
+const router = Router();
 
 /* GET home page. */
-//noinspection JSUnusedLocalSymbols
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.render('index', {title: 'Express'});
 });
 
-module.exports = router;
+export default router;
