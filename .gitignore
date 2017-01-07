@@ -76,6 +76,7 @@ bower_components
 app/public/javascripts/libs
 app/public/stylesheets/libs
 app/public/stylesheets/*.css
+!app/public/stylesheets/libs/sb-admin-2.min.css
 
 ## idea
 
