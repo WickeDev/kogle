@@ -4,6 +4,8 @@
       <w>addr</w>
       <w>dest</w>
       <w>dirname</w>
+      <w>eacces</w>
+      <w>eaddrinuse</w>
       <w>javascripts</w>
       <w>kogle</w>
       <w>scss</w>
