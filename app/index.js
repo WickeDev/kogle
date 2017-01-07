@@ -1,5 +1,6 @@
+//noinspection JSUnresolvedVariable
 import express from 'express';
-import path from 'path';
+import * as path from 'path';
 import favicon from 'serve-favicon';
 import logger from 'morgan';
 import cookieParser from 'cookie-parser';
@@ -16,9 +17,6 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
 // uncomment after placing your favicon in /public
-
-
-console.log(__dirname);
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -29,6 +27,7 @@ app.use(require('node-sass-middleware')({
     dest: path.join(__dirname, 'public'),
     sourceMap: true
 }));
+//noinspection JSValidateTypes
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
