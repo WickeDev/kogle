@@ -13,14 +13,14 @@ a {
 }
 
 // Mixin
-,center-block() {
+@mixin center-block($width) {
+    width: $width;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 // Usage
-,container {
-    width: 940px;
-    .center-block();
+.container {
+    @include center-block(940px);
 }
