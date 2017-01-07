@@ -1,4 +1,4 @@
-@import '../../bower_components/bootstrap/scss/bootstrap';
+﻿@import '../../bower_components/bootstrap/scss/bootstrap';
 
 body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -10,4 +10,17 @@ body {
 
 a {
     color: #00B7FF
+}
+
+// Mixin
+,center-block() {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Usage
+,container {
+    width: 940px;
+    .center-block();
 }
