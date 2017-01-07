@@ -3,6 +3,6 @@
         "node": "registry:env/node#6.0.0+20161225010013"
     },
     "dependencies": {
-        "express": "registry:dt/express#4.0.0+20161115070701"
+        "express": "registry:npm/express#4.14.0+20160925001530"
     }
 }
