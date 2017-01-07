@@ -73,11 +73,12 @@ jspm_packages
 typings
 bower_components
 
-app/public/javascripts/libs
-app/public/stylesheets/libs
-app/public/stylesheets/*.css
-!app/public/stylesheets/libs/sb-admin-2.min.css
+server/public/js/libs
+server/public/styles/libs
+server/public/styles/*.css
 
 ## idea
 
 .idea/workspace.xml
+.gulp-cache
+dist

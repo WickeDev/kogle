@@ -16,8 +16,8 @@
     ],
     "install": {
         "path": {
-            "/[c|sc|le]ss$/": "app/public/stylesheets/libs",
-            "js": "app/public/javascripts/libs"
+            "/[c|sc|le]ss$/": "server/public/styles/libs",
+            "js": "server/public/js/libs"
         }
     },
     "dependencies": {

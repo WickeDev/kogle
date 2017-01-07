@@ -71,4 +71,8 @@ class App {
     }
 }
 
-export default App;
+const app = new App().app;
+
+const server = app.listen(3000, () => {
+    console.log('Express listening on port 3000');
+});
