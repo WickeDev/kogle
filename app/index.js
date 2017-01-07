@@ -21,28 +21,30 @@ class App {
     }
 
     config() {
+        const app = this.app;
         // view engine setup
-        this.app.set('views', path.join(__dirname, 'views'));
-        this.app.set('view engine', 'hbs');
+        app.set('views', path.join(__dirname, 'views'));
+        app.set('view engine', 'hbs');
         // uncomment after placing your favicon in /public
-        this.app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-        this.app.use(logger('dev'));
-        this.app.use(bodyParser.json());
-        this.app.use(bodyParser.urlencoded({extended: false}));
-        this.app.use(cookieParser());
-        this.app.use(require('node-sass-middleware')({
+        app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+        app.use(logger('dev'));
+        app.use(bodyParser.json());
+        app.use(bodyParser.urlencoded({extended: false}));
+        app.use(cookieParser());
+        app.use(require('node-sass-middleware')({
             src: path.join(__dirname, 'public'),
             dest: path.join(__dirname, 'public'),
             sourceMap: true
         }));
 
         //noinspection JSUnresolvedFunction
-        this.app.use(express.static(path.join(__dirname, 'public')));
+        app.use(express.static(path.join(__dirname, 'public')));
     };
 
     route() {
-        this.app.use('/', index);
-        this.app.use('/users', users);
+        const app = this.app;
+        app.use('/', index);
+        app.use('/users', users);
         //app.use('/result', result);
     }
 
